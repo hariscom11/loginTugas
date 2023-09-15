@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#2196F3"
+    tools:ignore="ExtraText"><![CDATA[
+
+    android:layout_gravity="center"/>
+    ]]>
+
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="396dp"
+        android:src="@drawable/gambar" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/person"
+        android:hint="Username"
+        android:textColorHint="@color/black"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/lock"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:backgroundTint="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/forgotPasswordTextView"
+        android:layout_width="127dp"
+        android:layout_height="36dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
